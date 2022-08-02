@@ -4,7 +4,7 @@ app = Flask(__name__) #app is an instance
 
 @app.route("/") #this is a route
 def index(): #our view function
-    return "<h1>Hello word</h1>" # return string
+    return "<h1>Hello word</h1>" # return string ok
 
 @app.route("/about")
 def about():
